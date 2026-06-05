@@ -1,0 +1,27 @@
+{
+  "name": "@arbit/sdk",
+  "version": "1.0.0",
+  "description": "TypeScript SDK for the Arbit Protocol — trust and policy enforcement for AI agents on Arbitrum",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts"
+  },
+  "keywords": ["arbitrum", "ai-agents", "defi", "policy", "sdk"],
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^6.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "tsx": "^4.0.0"
+  }
+}
