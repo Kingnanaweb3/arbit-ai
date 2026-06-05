@@ -12,16 +12,18 @@ It also implements the four security gaps that ERC-8004, the Ethereum standard f
 
 All five contracts are verified on Sourcify and readable on Arbiscan.
 
-| Contract | Address |
-|---|---|
-| PolicyRegistry | 0x9189dd93ae978aa83d5aedfa3c394af2a569231a |
-| ActivityLog | 0xf9923df74ffa56cdccead8d4c2d16b32c61ab632 |
-| RiskGuardian | 0x9C11eadBFd6c55c049A8F8AC6B77c6F93C915b04 |
-| SentinelGate | 0x5787801F722Ef909c5F7ad3d7c5D915804e2E80A |
-| ReputationStaking | 0x21040c936e19691138D639C5718339B6d8AcB279 |
-| MockUSDC (testnet) | 0x16F2041585688AAF60dFd206d13246FD81aD515C |
+| Contract | Address | Arbiscan |
+|---|---|---|
+| PolicyRegistry | 0x9189dd93ae978aa83d5aedfa3c394af2a569231a | [View](https://sepolia.arbiscan.io/address/0x9189dd93ae978aa83d5aedfa3c394af2a569231a) |
+| ActivityLog | 0xf9923df74ffa56cdccead8d4c2d16b32c61ab632 | [View](https://sepolia.arbiscan.io/address/0xf9923df74ffa56cdccead8d4c2d16b32c61ab632) |
+| RiskGuardian | 0x9C11eadBFd6c55c049A8F8AC6B77c6F93C915b04 | [View](https://sepolia.arbiscan.io/address/0x9C11eadBFd6c55c049A8F8AC6B77c6F93C915b04) |
+| SentinelGate | 0x5787801F722Ef909c5F7ad3d7c5D915804e2E80A | [View](https://sepolia.arbiscan.io/address/0x5787801F722Ef909c5F7ad3d7c5D915804e2E80A) |
+| ReputationStaking | 0x21040c936e19691138D639C5718339B6d8AcB279 | [View](https://sepolia.arbiscan.io/address/0x21040c936e19691138D639C5718339B6d8AcB279) |
+| MockUSDC (testnet) | 0x16F2041585688AAF60dFd206d13246FD81aD515C | [View](https://sepolia.arbiscan.io/address/0x16F2041585688AAF60dFd206d13246FD81aD515C) |
 
 Network: Arbitrum Sepolia, Chain ID 421614
+
+You can verify the source code of each contract on Sourcify. All five core contracts were verified at deployment with an exact match status, meaning the deployed bytecode matches the source code exactly.
 
 
 ---
@@ -416,3 +418,4 @@ Solidity 0.8.35, Arbitrum Stylus (Rust) for the RiskGuardian scoring engine, Pyt
 ## Built For
 
 Arbitrum Open House London 2026, Agentic Infrastructure Track. Total prize pool $415,000 across the Online Buildathon and IRL Founder House.
+
